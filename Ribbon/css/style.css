@@ -1,0 +1,34 @@
+html, body, canvas
+{
+	background:black;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+a, a:active, a:hover, a:visited
+{
+	text-decoration: none;
+}
+
+#social
+{
+	position:absolute;
+	left:1%;
+	bottom:1%;
+}
+
+#social li
+{
+	float:left;
+	margin-left:15px;
+	list-style-type: none;
+}
+
+#nbParticles
+{
+	color:white;
+	font-size:1em;
+	position: absolute;
+	z-index:99;
+}

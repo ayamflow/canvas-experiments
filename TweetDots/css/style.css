@@ -1,0 +1,98 @@
+html, body, canvas
+{
+	background-color: black;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+a, a:active, a:hover, a:visited
+{
+	text-decoration: none;
+}
+
+.twitterUrl
+{
+	color: #3399FF;
+}
+
+.twitterUsername
+{
+	color: #339966;
+}
+
+.twitterTag
+{
+	color: #FF6666;
+}
+
+#tweetWrapper
+{
+	position:absolute;
+	left:3%;
+	top:10%;
+	color:white;
+	font-family: "Oswald";
+	font-size: 1.5em;
+}
+
+#user
+{
+	font-size: 0.7em;
+	color:gray;
+}
+
+#search
+{
+	position: absolute;
+	left: 35%;
+	top: 45%;
+	margin-top:-17px;
+	width: 30%;
+	height: 35px;
+}
+
+#search input
+{
+	width:85%;
+	height:100%;
+	font-size: 2em;
+	color: black;
+	border: 7px solid rgba(250, 250, 250, 0.7);
+	border-radius: 5px;
+	background-color: #DDD;
+	-webkit-transition: opacity 1s ease;
+}
+
+#search img
+{
+	position: relative;
+	top: 8px;
+	left: 12px;
+	opacity:0;
+	-webkit-transition: opacity 1s ease;
+}
+
+.fadeIn
+{
+	opacity:1 !important;
+}
+
+.fadeOut
+{
+	opacity:0 !important;
+}
+
+#social
+{
+	position:absolute;
+	left:1%;
+	bottom:1%;
+}
+
+#social li
+{
+	float:left;
+	margin-left:15px;
+	list-style-type: none;
+}
